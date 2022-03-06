@@ -14,7 +14,7 @@
 
 html, body{
     margin: 0;
-    background-color: var(--bg-dark)
+    background: var(--bg-dark)
 }
 
 body, button, input, select, textarea{
@@ -55,13 +55,17 @@ header{
 }
 
 header .container{
-    width: 55%;
+    width: 50%;
     height: fit-content;
     padding: 0 100px;
 }
 
+header .container img{
+    display: none;
+}
+
 header .container h1{
-    color:var(--green);
+    color: var(--green);
 }
 
 header .container button{
@@ -73,7 +77,6 @@ nav{
     align-items: center;
     height: var(--menu-height);
     justify-content: space-between;
-    height: var(--menu-height);
     background: var(--bg-dark);
     padding: 0 100px;
     position: sticky;
@@ -84,14 +87,75 @@ nav img{
     height: 45px;
 }
 
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 nav ul a{
     font-size: 24px;
     color: var(--green);
     text-decoration: none;
-    margin: 0 35px;
+}
+
+nav ul a svg{
+    display: none;
 }
 
 section{
     height: 1500px;
     background: purple;
+}
+
+/* RESPONSIVIDADE */
+/* small desktop */
+@media (max-width: 1000px){
+    header .container{
+        width: 100%;
+    }
+
+    nav {
+        padding: 0 30px;
+    }
+    
+    nav ul a{
+        font-size: 18px;
+    }
+}
+/* tablet */
+@media (max-width: 767px){
+    header .container img{
+        display: inline;
+        margin-bottom: 70px;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    nav ul{
+        padding: 0;
+    }
+
+    nav ul a{
+        font-size: 16px;
+    }
+}
+/* celular */
+@media (max-width: 480px){
+    header .container{
+        padding: 0 40px;
+    }
+
+    nav{
+        padding: 0 15px;
+    }
+    nav ul a{
+        font-size: 12px;
+    }
+    nav ul a svg{
+        display: block;
+        margin: 0 auto 10px;
+    }
 }
