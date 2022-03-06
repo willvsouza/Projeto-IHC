@@ -149,6 +149,10 @@ section{
     }
 
     nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        top: unset;
         padding: 0 15px;
     }
     nav ul a{
