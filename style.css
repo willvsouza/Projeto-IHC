@@ -302,8 +302,9 @@ p{
 }
 
 .curriculum .container .content .curriculum-info{
+    width: 100%;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto auto;
     grid-gap: 1rem;
     margin-bottom: 50px;
 }
