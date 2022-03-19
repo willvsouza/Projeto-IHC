@@ -9,6 +9,7 @@ Para ver o projeto ao vivo, [clique aqui](https://rayanecarvalho.github.io/onepa
 ![Projeto Preview](https://github.com/rayaneCarvalho/onepage/blob/master/assets/curriculo.jpeg?raw=true)
 ![Projeto Preview](https://github.com/rayaneCarvalho/onepage/blob/master/assets/contato.jpeg?raw=true)
 ![Projeto Preview](https://github.com/rayaneCarvalho/onepage/blob/master/assets/celular.jpeg?raw=true)
+
 Olá! Esse projeto foi realizado durante o curso **FrontStart** com o objetivo de aprender HTML e CSS voltados para página web.
 
 ### Aprendizados 
