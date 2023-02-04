@@ -9,6 +9,7 @@
     --menu-height: 75px;
 }
 
+
 *{
     box-sizing: border-box;
 }
@@ -44,7 +45,7 @@ p{
     color: var(--light-grey);
 }
 
-button{
+.one{
     background: var(--purple);
     border: 0;
     border-radius: 16px;
@@ -52,6 +53,7 @@ button{
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+    color: aliceblue;
 }
 
 .secondary-button{
@@ -83,9 +85,12 @@ header{
 }
 
 header .container{
-    width: 50%;
-    height: fit-content;
-    padding: 0 100px;
+    width: 100%;
+    height: 100%;
+    padding: 15% 5%;
+    display: flexbox;
+    justify-content: center;
+    
 }
 
 header .container img{
@@ -95,13 +100,18 @@ header .container img{
 header .container button{
     margin-top: 40px;
 }
+iframe{
+    width: 560px ;
+    height: 315px;
+    margin-right: 10%;
+}
 
 nav{
     display: flex;
     align-items: center;
     height: var(--menu-height);
     justify-content: space-between;
-    background: var(--bg-dark);
+    background: rgba(0, 0, 0, 0.5);
     padding: 0 100px;
     position: sticky;
     top: 0;
@@ -129,6 +139,17 @@ nav ul a svg{
     display: none;
 }
 
+.part1{
+    background-image: url("assets/Como-colocar-bot-no-servidor-do-Discord.png");
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: 100%;
+
+}
+
+.img-discord{
+    height: 10%;
+}
 .about-me{
     display: flex;
     padding: 100px;   
@@ -146,20 +167,20 @@ nav ul a svg{
 }
 
 .about-me .img-container img{
-    width: 70%;
+    width: 40%;
     height: 100%;
     object-fit: cover;
 }
 
 .about-me .img-container .line{
-    width: calc(70% + 50px);
+    width: calc(40% + 50px);
     height: calc(100% + 50px);
     border: 1px solid var(--purple);
     
 
     position: absolute;
     top: -25px;
-    left: calc(50% - 70%/2 - 25px);
+    left: calc(50% - 40%/2 - 25px);
 }
 
 .about-me .img-container .line.green {
@@ -276,6 +297,12 @@ nav ul a svg{
 .portfolio-card + .portfolio-card{
     margin-left: 10px;
 }
+
+.portfolio-card:hover {
+    color: #fff;
+     background-color: green;
+}
+
 
 p{
     margin: 0;
