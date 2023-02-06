@@ -10,9 +10,7 @@
 }
 
 
-*{
-    box-sizing: border-box;
-}
+
 
 html{
     scroll-behavior: smooth;
@@ -144,6 +142,7 @@ nav ul a svg{
     background-repeat: no-repeat;
     background-position: top ;
     background-size: 100%;
+    margin-top: 420px;
 
 }
 
@@ -236,6 +235,7 @@ nav ul a svg{
 
 .portfolio .portfolio-container{
     margin-top: 130px;
+    box-sizing: content-box;
 }
 
 .portfolio .portfolio-container .portfolio-card{
@@ -245,7 +245,7 @@ nav ul a svg{
     border: 1px solid white;
 
     border-radius: 16px;
-    max-width: 360px;
+    max-width: 190px;
     text-align: left;
     padding: 50px 25px;
 }
