@@ -9,6 +9,22 @@
     --menu-height: 75px;
 }
 
+
+.portfolio-card { 
+    transition: 0.5s; 
+}
+.portfolio-card:hover { 
+    transform: scale(1.05); 
+}
+
+a:link, .portfolio .portfolio-container a:link {
+    text-decoration: none;
+  }
+  
+a:visited, .portfolio .portfolio-container a:visited {
+    text-decoration: none;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -167,21 +183,21 @@ nav ul a svg{
     color: var(--green);
 }
 
-.services{
+.portfolio{
     text-align: center;
     margin: 150px 0;
     padding: 0 100px;
 }
 
-.services-container, .portfolio-container{
+.portfolio-container, .portfolio-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
     margin: 60px auto 0;
 
 }
 
-.services .services-container .service-card{
+.portfolio .portfolio-container .portfolio-card{
     max-width: 360px;
 
     background: #2f3034;
@@ -196,12 +212,12 @@ nav ul a svg{
     align-items: center;
 }
 
-.services .services-container .service-card img{
+.portfolio .portfolio-container .portfolio-card img{
     margin-bottom: 40px;
     width: 90px;
 }
 
-.service-card + .service-card{
+.portfolio-card + .portfolio-card{
     margin-left: 10px;
 }
 
@@ -371,21 +387,21 @@ footer{
         margin: 70px 0;
     }
 
-    .services{
+    .portfolio{
         padding: 0;
     }
 
-    .services .services-container, .portfolio .portfolio-container{
+    .portfolio .portfolio-container, .portfolio .portfolio-container{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
     }
 
-    .service-card{
+    .portfolio-card{
         height: 394px;
     }
 
-    .service-card + .service-card, .portfolio-card + .portfolio-card{
+    .portfolio-card + .portfolio-card, .portfolio-card + .portfolio-card{
         margin-left: 0;
         margin-top: 30px;
     }
@@ -454,11 +470,11 @@ footer{
         padding: 40px;
     }
 
-    .services{
+    .portfolio{
         margin: 70px 0;
     }
 
-    .services .services-container, .portfolio .portfolio-container{
+    .portfolio .portfolio-container, .portfolio .portfolio-container{
         padding: 0 20px;
     }
 
