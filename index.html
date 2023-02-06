@@ -6,30 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorial Discord</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/discord-logo3.png"/>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
     <nav>
-        <img src="assets/discord-logo2.png" alt="logo" >
+        <a href="#top"><img src="assets/discord-logo2.png" width="200px" alt="logo" ></a>
         <ul>
-            <a href="#aboutme"><i data-feather="user"></i>Sobre</a>
-            <a href="#services"><i data-feather="briefcase"></i>Download</a>
-            <a href="#portfolio"><i data-feather="image"></i>Primeiro Passo</a>
-            <a href="#curriculum"><i data-feather="list"></i>Meu Servidor</a>
-            <a href="#contact"><i data-feather="send"></i>Servidor Público</a>
+            <a href="#sobre"><i data-feather="user"></i>Sobre</a>
+            <a href="#download"><i data-feather="briefcase"></i>Download</a>
+            <a href="#primeiroPasso"><i data-feather="image"></i>Primeiro Passo</a>
+            <a href="#meuServidor"><i data-feather="list"></i>Meu Servidor</a>
+            <a href="#servidorPublico"><i data-feather="send"></i>Servidor Público</a>
         </ul>
     </nav>
     <header>
         <div class="container part1">
-            <p>Aqui você encontra tudo o que precisa saber sobre o Discord!</p>
+            <p id="inicio">Aqui você encontra tudo o que precisa saber sobre o Discord!</p>
             <br/>
-            <a href="#aboutme" class="one">Veja mais sobre Discord</a>
+            <a href="#sobre" class="one">Veja mais sobre o Discord</a>
         </div>
     </header>
 
 <div class="inicio">
-    <section id="aboutme1" class="about-me">
+    <section id="sobre" class="about-me">
         <div class="container">
             <h1 class="title-green">IMAGINE UM LUGAR…</h1>
             <p>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial.
@@ -49,7 +50,7 @@
     </div>
 
     <!-- Download -->
-    <section id="aboutme2" class="about-me">
+    <section id="download" class="about-me">
         
         <div class="img-container">
             <iframe  src="https://www.youtube.com/embed/dSHNJ-M0kTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -68,7 +69,7 @@
     </section>
 
     <!-- Primeiro Passo-->
-    <section id="aboutme3" class="about-me">
+    <section id="primeiroPasso" class="about-me">
         <div class="container">
             <h1 class="title-green">Primeiro Passo</h1>
             <p>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial.
@@ -86,7 +87,7 @@
 
 
     <!-- Download -->
-    <section id="aboutme4" class="about-me">
+    <section id="meuServidor" class="about-me">
         
         <div class="img-container">
             <iframe src="https://www.youtube.com/embed/lYD04Y-ECe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -105,7 +106,7 @@
     </section>
 
     <!-- Primeiro Passo-->
-    <section id="aboutme5" class="about-me">
+    <section id="servidorPublico" class="about-me">
         <div class="container">
             <h1 class="title-green">Servidor Público</h1>
             <p>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial.
@@ -121,33 +122,16 @@
         </div>
     </section>
 
-
-
-
-    <section id="services" class="services">
-        <h1 class="title-green">Serviços</h1>
-        <div class="services-container">
-            <div class="service-card">
-                <img src="assets/desenvolvedor.png" alt="Ýcone de desenvolvimento">
-                <h2>Desenvolvimento de Sites</h2>
-                <p>Desenvolvimento de sites empresariais. Faça sua empresa ser facilmente encontrada online.</p>
-            </div>
-            <div class="service-card">
-                <img src="assets/gerenciamento-de-projetos.png" alt="Ýcone de layouts">
-                <h2>Criação de Layouts</h2>
-                <p>Criação de protótipos de interfaces web e mobile, para validar suas ideias antes de partir para a
-                    prática.</p>
-            </div>
-            <div class="service-card">
-                <img src="assets/servicos-de-suporte.png" alt="Ýcone de suporte">
-                <h2>Suporte Técnico</h2>
-                <p>Prestação de suporte para aplicações empresariais, a fim de otimizar processos nas ferramentas de
-                    gestão.</p>
-            </div>
+    <section class="discord">
+        <h1 class="title-green">Acesse ao Discord agora mesmo!</h1>
+        <div class="container">
+            <a href="https://discord.com/" target="_blank" id="discord-img"><img class="discord-img" src="assets/discord-logo3.png" alt="Imagem do Discord"></a>
         </div>
     </section>
+
+
     <section id="portfolio" class="portfolio">
-        <h1 class="title-green">Portfólio</h1>
+        <h1 class="title-green">Portfólios</h1>
         <div class="portfolio-container">
             <div class="portfolio-card">
                 <div class="img-container">
@@ -156,11 +140,11 @@
                 </div>
                 <div class="language-container">
                     <ul>
-                        <li>Caminhoneira</li>
+                        <li>Developer</li>
                     </ul>
                 </div>
                 <p><b>Rayne Carvalho</b></p>
-                <p>Caminhoneira romântica, é um perigo no tinder.</p>
+                <p>Java, Javascript, Python, C/C++, PHP</p>
             </div>
             <div class="portfolio-card">
                 <div class="img-container">
@@ -169,11 +153,11 @@
                 </div>
                 <div class="language-container">
                     <ul>
-                        <li>Trabalhador</li>
+                        <li>Developer</li>
                     </ul>
                 </div>
-                <p><b>Gustavo</b></p>
-                <p>Cidadão brasileiro que presa pelos bons costumes.</p>
+                <p><b>Gustavo Mota</b></p>
+                <p>Java, Javascript, Python, C/C++</p>
             </div>
             <div class="portfolio-card">
                 <div class="img-container">
@@ -182,11 +166,11 @@
                 </div>
                 <div class="language-container">
                     <ul>
-                        <li>Pão com Ovo</li>
+                        <li>Web Designer</li>
                     </ul>
                 </div>
                 <p><b>Lucas Alves</b></p>
-                <p>Gay Caloteira, que adora ir para farra.</p>
+                <p>Javascript, Typescript, React, Angular, Photoshop, Corel</p>
             </div>
             <div class="portfolio-card">
                 <div class="img-container">
@@ -195,11 +179,11 @@
                 </div>
                 <div class="language-container">
                     <ul>
-                        <li>Maricona</li>
+                        <li>Developer</li>
                     </ul>
                 </div>
-                <p><b>William</b></p>
-                <p>Maricona safada, que adora um bruschetta.</p>
+                <p><b>William Vieira</b></p>
+                <p>Java, Javascript, Python, C/C++, PHP</p>
             </div>
             <div class="portfolio-card">
                 <div class="img-container">
@@ -208,44 +192,19 @@
                 </div>
                 <div class="language-container">
                     <ul>
-                        <li>Euro Trucker</li>
+                        <li>QA</li>
                     </ul>
                 </div>
-                <p><b>Amanda</b></p>
-                <p>Hetara influencer, que joga Euro Truck.</p>
-            </div>
-        </div>
-
-
-    </section>
-    <section id="curriculum" class="curriculum">
-        <h1 class="title-green">Currículo</h1>
-        <div class="container">
-            <img class="curriculum-img" src="assets/imagem.png" alt="Imagem do projeto de um currículo">
-            <div class="content">
-                <div class="curriculum-info">
-                    <span>Nome</span> <b>Rayane da Silva Carvalho</b>
-                    <span>Idade</span> <b>22 anos</b>
-                    <span>Formação</span> <b>Sistemas de Informação - IFSEMG</b>
-                    <span>Cidade</span> <b>Juiz de Fora - MG</b>
-                    <span>Telefone</span> <b>32 988488007</b>
-                    <span>Email</span> <b>carvalhorayane779@gmail.com</b>
-                    <span>Freelance</span> <b>Disponível</b>
-                    <span>Experiência</span> <b>C, HTML, CSS, JS, Vue Js</b>
-                    <span>Idiomas</span> <b>Inglês (Básico)</b>
-                </div>
-                <button class="secondary-button" onclick="window.open('https://drive.google.com/file/d/14wgs1HtgTb-pqdb5aWLv_JilklWjWKE-/view?usp=sharing')">
-                    <img src="assets/save.png" alt="Ýcone para salvar">
-                    Baixe meu currículo completo
-                </button>
+                <p><b>Amanda Ribeiro</b></p>
+                <p>Java, Javascript, Python, Detox, Robot, Cavy, Cypress</p>
             </div>
         </div>
     </section>
-
+    
     <section id="contact" class="contact">
         <h1>Vamos trabalhar juntos?</h1>
-        <p>Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em
-            contato comigo! </p>
+        <p>Se você gostou do trabalho do nosso time e quer que tiremos sua ideia do papel, entre em
+            contato conosco! </p>
         <button onclick="window.open('https://api.whatsapp.com/send?phone=5532988488007')">Entre em contato</button>
         <div class="social-media">
             <a href="https://www.instagram.com/the.rayanecarvalho/"><img src="assets/Vector.png" alt="Instagram logo"></a>
@@ -255,7 +214,7 @@
         </div>
     </section>
     <footer>
-        <p>Made by Rayane Carvalho - 2022</p>
+        <p>Made by Queer Team - 2023</p>
     </footer>
     <script>
         feather.replace()
